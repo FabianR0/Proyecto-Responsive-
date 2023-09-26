@@ -1,0 +1,316 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.layered-image {
+    background: linear-gradient(to right, transparent, rgba(11, 10, 10, 0.888))
+    /* url("https://picsum.photos/2000");  */
+}
+article,section,footer,header{
+    border: 1px solid #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+/* header, main, footer, div, p, section, article,h1,h2,h3,h4,h5,h6{
+    border: 1px solid #60b692;
+} */
+.footer{
+    /* background: #a5afc6;  */
+    background: linear-gradient(to left, transparent, #a5afc6);
+    padding: 5px;
+}
+a{
+    font-size: 16px;
+    text-decoration: none;
+}
+.linea-horizontal {
+    border: none;
+    height: 1px;
+    background-color: #000;
+    margin: 10px 0;
+}
+h3.titulo-noticias{
+    color: red;
+    text-align: center;
+}
+/* css menu */
+/* .menu-lateral{
+    position: relative;
+    bottom: 800px;
+    display: inline-block;
+    width: 13%;
+} */
+.h2-menu{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.paddi-menu{
+    padding-right: 31px;
+    background: transparent;
+    list-style-type: none;
+    margin: 0;
+}
+/* css noticias */
+/* .noticias-principales{
+    display: inline-block;
+    width:43%;
+} */
+.posi{
+    position: relative;
+    width: 50%;
+    display: inline-block;
+    left: 40px;
+    bottom: 100px;
+    margin-top:105px;
+}
+.custom-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 125px;
+    margin-bottom: 5px;
+}
+
+.custom-button:hover {
+    background-color: #2980b9;
+}
+.enlace {
+    margin-right: 15px;
+    /* display:block; */
+    align-items:end;
+}
+/* imagen con un cuadro adentro */
+.header{
+    position: relative;
+}
+.adentro {
+    display: block;
+    width: 100%;
+    height: 300px;;
+}
+aside.dentro{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    z-index: 1;
+}
+.cuadrodiv{
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.cuadro{
+    list-style-type: none;
+    text-align: center;
+    max-width: 250px;
+    margin-left: auto;
+    padding: 18px;
+}
+.buttondiv{
+    position: relative;
+    top: -20px;
+    margin: 1px;
+}
+/* .adentro{
+    position: absolute;
+    width:1245px;
+    height:223px;
+    object-fit: contain;
+    object-position: top left;
+} */
+.left{
+    float: left;
+}
+.orden{
+    list-style-type: none;
+    overflow: hidden;
+}
+.estiloli{
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.espacio{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.estilol{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px; color: #000000;
+}
+.buttongra{
+    width: 86.5%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 16.5px;
+}
+.buttonpe{
+    background: transparent;
+    flex-grow: 1;
+    border: thick double #000000;
+    border-radius: 50% 20% / 10% 40%;
+    border-color: #333;
+    margin-bottom: 8px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.img-news{
+    margin:15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.imgdiv{
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+    margin: auto;
+}
+.imgclass{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+/* estilos buscador  */
+  .search-input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  @media ( min-width: 376){
+    
+   }
+  @media (min-width: 576px) {
+    .buttongra{
+        width: 86.5%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 36.5px;
+    }
+     .menu-lateral{
+        position: static;
+        width: 100%;
+    }
+    .noticias-principales{
+        display: inline-block;
+        width:100%;
+    }
+    .noticias-principales2{
+        display: inline-block;
+        width:100%;
+    }
+    .dentro{
+        position: relative;
+        padding-left: 250px;
+    }
+    header img {
+        max-width: 97%;
+        height: 43%;
+    }
+   }
+   /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .menu-lateral{
+        position: relative;
+        bottom: 800px;
+        display: inline-block;
+        width: 20%;
+    }
+    .noticias-principales{
+        display: inline-block;
+        width:35%;
+    }
+    .noticias-principales2{
+        display: inline-block;
+        width:35%;
+    }
+    .buttongra{
+        width: 86.5%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 106.5px;
+    }
+    .lefto{
+        margin-right: 5px;
+        margin-top: 17px;
+    }
+   }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .menu-lateral{
+        position: relative;
+        bottom: 800px;
+        display: inline-block;
+        width: 15%;
+    }
+    .noticias-principales{
+        display: inline-block;
+        width:75%;
+    }
+    .noticias-principales2{
+        display: inline-block;
+        margin-left: 15.5%;
+        width:75%;
+    }
+    .lefto{
+        margin-left: 15px;
+        margin-top: 17px;
+    }
+   }
+
+   /* X-Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .menu-lateral{
+        position: relative;
+        bottom: 800px;
+        display: inline-block;
+        width: 12%;
+    }
+    .noticias-principales{
+        display: inline-block;
+        width:43%;
+    }
+    .noticias-principales2{
+        display: inline-block;
+        margin-left: 0;
+        width:43%;
+    }
+    .lefto{
+        margin-left: 115px;
+        margin-top: 15px;
+    }
+  }
+  /* XX-Large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    .menu-lateral{
+        position: relative;
+        bottom: 800px;
+        display: inline-block;
+        width: 13%;
+    }
+    .noticias-principales{
+        display: inline-block;
+        width:43%;
+    }
+    .noticias-principales2{
+        display: inline-block;
+        width:43%;
+    }
+    .lefto{
+        margin-left: 295px;
+        margin-top: 15px;
+    }
+   }
